@@ -1,0 +1,15 @@
+.title{
+    color: red;
+}
+
+#para{
+    color: green;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+}
