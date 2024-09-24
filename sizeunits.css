@@ -1,0 +1,28 @@
+/* height -> view height (vh) 
+   width -> view width (vw)
+*/
+
+.container{
+    height: 90vh;
+    width: 80vw;
+    /* height: 700px;
+    width: 700px; */
+    background-color: aqua;
+    font-size: 20px;
+}
+
+html{
+    font-size: 10px;
+}
+
+/* default font size is 16px */
+
+.container p{
+    font-size: 2rem;
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
