@@ -1,0 +1,42 @@
+.container{
+   height: 70vh;
+   background-color: aqua;
+}
+
+.box{
+   height: 100px;
+   width: 100px;
+   border: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* animation code */
+
+   animation-name: AnimationOne;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   /* animation-delay: 2s; */
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+
+
+}
+
+/* Creating Animation */
+
+@keyframes AnimationOne {
+   from {
+      background-color: red;
+   }
+
+   to {
+      transform: translateX(700px);
+      /* transform: translateY(400px);  */
+     /* transform: rotate(360deg); */
+     /* transform: scale(2); */
+     /* transform: skew(20deg, 40deg); */
+     background-color: yellow;
+
+   }
+}

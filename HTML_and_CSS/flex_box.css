@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    /* will work vertically in case of column */
+    justify-content: start; 
+    /* will work horizontally in case of column */
+    align-items: center;
+    height: 1000px;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black; 
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: orange;
+}
+
+.box3{
+    background-color: yellow;
+}
+
+.box4{
+    background-color: green;
+}

@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box1{
+    background-color: red;
+    position: relative;
+    left: 300px;
+}
+
+.box2{
+    background-color: forestgreen;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    z-index: 27;
+}
+
+.box3{
+    background-color: orange;
+    position: relative;
+    left: 300px;
+    bottom: 120px;
+    z-index: 29;
+}
+
+.box4{
+    background-color: yellow;
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    z-index: 30;
+}

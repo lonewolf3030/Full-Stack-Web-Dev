@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: beige;
+    padding: 0px 15px;
+
+}
+.search_bar input{
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    border-radius: 15px;
+    color: gray;
+    font-size: 13px;
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.menu_items li{
+    cursor: pointer;
+}
+
+.hero_section{
+    display: flex;
+    background-color: rgb(249, 249, 237);
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_content{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.side_content{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get_started_btn button{
+   background-color: black;
+   padding: 6px 12px;
+   color: white;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: bold;
+}
+

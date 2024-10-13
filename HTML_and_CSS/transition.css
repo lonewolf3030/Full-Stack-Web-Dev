@@ -1,0 +1,19 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: red;
+    /* transition porperties */
+    /* transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+    transition-delay: 1s; */
+    transition: 2s all ease 1s;
+    /* transform: rotate(30deg);
+    transform: translateX(100px); */
+    transform: translateY(100px);
+}
+
+.box:hover{
+    background-color: yellow;
+}

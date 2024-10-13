@@ -1,0 +1,38 @@
+.container{
+   display: flex;
+   justify-content: start;
+   align-items: end;
+   height: 1000px;
+   gap: 20px;
+   /* flex-wrap: wrap; */
+
+  flex-direction: column;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: gray;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: orange;
+}
+
+.box5{
+    background-color: purple;
+}

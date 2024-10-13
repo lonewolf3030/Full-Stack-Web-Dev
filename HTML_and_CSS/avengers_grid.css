@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.box{
+    height: 200px;
+    width: 200px; 
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box_tr{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}

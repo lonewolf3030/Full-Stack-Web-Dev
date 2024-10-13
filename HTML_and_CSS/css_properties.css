@@ -1,0 +1,23 @@
+/* .title{
+    color: red;
+    font-size: 24px;
+}
+
+.para{
+    color: orange;
+} */
+
+.para{
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 14px;
+    background-color: yellow;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    border: 2px solid black;
+    margin: 200px;
+}
