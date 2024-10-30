@@ -1,23 +1,30 @@
-// Objects in Javascript
+// Objects in JavaScript
+
+// key-value pairs
+
+// creating object
 
 const person = {
     name : "abc",
     lastname : "xyz",
-    age : 20,
+    age : 25,
+    cartItems : ["Item1", "Item2", "Item3"],
     printHello : function(){
-        console.log("Hello World")
+        return "Hello World"
     },
-    names : ["a", "b", "c"]
 }
+// accessing object's keys and values
 
-console.log(person.names);
+console.log(person.secondPerson.lastname)
+console.log(person["secondPerson"]["lastname"]);
 
-// For in Loop
+// Iterating over an object
 
-for(let key in person) {
-    console.log(`${key}: ${person[key]}`);
+// For in loop
+
+for(let key in person){
+    console.log(`key : ${key}, value : ${person[key]}`)
 }
-
 
     
 
