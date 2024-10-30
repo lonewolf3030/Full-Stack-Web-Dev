@@ -108,6 +108,16 @@ console.log(x[0][0]);
 // accessing the second item of the third inner array
 console.log(x[2][1]); 
 
+// Iterating multidimensional array elements
+
+const matrix = [[1,2,3], [4,5,6], [7,8,9]]
+
+for(let i = 0; i < matrix.length; i++){
+    for(let j = 0; j < matrix[i].length; j++){
+        console.log(matrix[i][j])
+    }
+}
+
 
 
 
