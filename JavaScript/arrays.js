@@ -91,6 +91,23 @@ let myArray = [
 
 console.log(myArray[5]()); // output -> This is a function inside an array
 
+// Multidimensional array
+
+const x = [
+['Jack', 24],
+['Sara', 25],
+['Peter', 26]
+];
+
+// accessing the first item
+console.log(x[0]); 
+
+// accessing the first item of the first inner array
+console.log(x[0][0]);
+
+// accessing the second item of the third inner array
+console.log(x[2][1]); 
+
 
 
 
