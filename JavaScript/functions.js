@@ -34,6 +34,14 @@ calculateArea(5, 10);  // output -> 50
 
 // console.log("Arrow function example", addTwoNumbers(20, 30));
 
+// Function expression
+
+const multiply = function(num1, num2){
+    return num1 * num2
+}
+
+console.log(multiply(2, 3))
+
 // achieving the same in one line using arrow function
 
 const addTwoNumbers = (num1, num2) => num1 + num2;
