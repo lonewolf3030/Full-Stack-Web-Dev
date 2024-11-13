@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    input{
+        margin: 15px;
+    }
+
+    span{
+        color: red;
+    }
+
+    button{
+        padding: 6px 10px;
+        background-color: darkblue;
+        color: white;
+    }
+</style>
+<body>
+
+
+    <form onsubmit="return submitForm()">
+
+        <h1>Form Validation in DOM</h1>
+
+        <input type="text" id = "username"
+         placeholder="username">
+        <br>
+
+        <span id ="usernameErr"></span>
+
+        <br>
+        <input type="email" id = "email"
+         placeholder="email">
+        <br>
+
+        <span id ="emailErr"></span>
+
+        <br>
+        <input type="password" id = "password"
+         placeholder="password">
+        <br>
+
+        <span id = "passwordErr"></span>
+
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
